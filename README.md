@@ -23,7 +23,7 @@ to stop running services:
 ```
 ./volue stop
 ```
-#TODOs
+# TODOs
 * add index on Mongo collection to improve performance
 * add SSL on API endpoint
 * improve performance on Calculation service (make session request? run calculations in parallel?)
