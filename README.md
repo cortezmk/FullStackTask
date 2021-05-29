@@ -23,3 +23,9 @@ to stop running services:
 ```
 ./volue stop
 ```
+#TODOs
+* add index on Mongo collection to improve performance
+* add SSL on API endpoint
+* improve performance on Calculation service (make session request? run calculations in parallel?)
+* add volume for Mongo container? - I didn't include it in current version - didn't want to leave a mess on host machine :)
+* perhaps move to docker compose - it wasn't specified whether it's allowed
