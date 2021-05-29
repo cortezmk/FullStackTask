@@ -29,3 +29,4 @@ to stop running services:
 * improve performance on Calculation service (make session request? run calculations in parallel?)
 * add volume for Mongo container? - I didn't include it in current version - didn't want to leave a mess on host machine :)
 * perhaps move to docker compose - it wasn't specified whether it's allowed
+* make request validation on API service
