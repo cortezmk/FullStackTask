@@ -1,0 +1,1 @@
+docker run -it -p 5000:5000 --name volue-api-container --env MONGO_IP=$mongoIp volue-api
